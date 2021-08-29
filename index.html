@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <script defer src="./script.js"></script>
+    <title>Pig Game</title>
+  </head>
+  <body>
+    <div class="dice--container">
+      <div class="dice">
+        <div class="dice__content player--content-1 player--active">
+          <div class="player player-1">Player 1</div>
+          <div class="score score-1">0</div>
+        </div>
+        <!-- img -->
+        <div class="dice--img">
+          <div class="btn-style btn--new">🔄 New Game</div>
+
+          <img src="./images/dice-3.png" />
+
+          <div class="btn--roll btn-style btn--roll">🎲 Roll Dice</div>
+
+          <div class="btn--play__again btn-style btn--hold">📥 Hold</div>
+        </div>
+        <div class="dice__content player--content-2">
+          <div class="player player-2">Player 2</div>
+          <div class="score score-2">0</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
